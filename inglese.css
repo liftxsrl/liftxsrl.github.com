@@ -1,0 +1,238 @@
+body{
+	font-family:calibri;
+	color:#A9B7B8;
+	background-color:#174071;
+	
+}
+li{
+  display: inline;
+  padding: 20px;
+}
+header{
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+}
+li a {
+	text-decoration: none;
+	font-weight: bold;
+	color:#A9B7B8;
+}
+
+
+.logo{
+	float:center;
+	width:500px;
+}
+
+footer {
+    background-color:black;
+	padding: 20px;
+	margin-right:0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+	
+
+}
+
+.footer-left {
+    border: none; 
+    padding: 0;  
+    margin-left:0;
+	padding:0;
+}
+.footer-right{
+    border: none; 
+    margin: 0px; 
+}
+
+.footer-right img {
+    width: 30px;
+
+}
+
+h2 {
+	text-align: center;
+    font-size: 3rem;
+    font-family: Modula Sans, sans-serif;
+    line-height: 1.25;
+    color: #A9B7B8;
+    font-weight: 700;
+}
+.text{
+	padding-left:250px;
+	font-size:20px;
+}
+.testo{
+	text-align:justify;
+	font-size:20px;
+	padding-right:200pt;
+	margin-left:528pt;
+}
+.text1
+{
+	text-align:left;
+}
+.title1
+{
+    font-family: Modula Sans, sans-serif;
+    line-height: 1;
+    font-weight:bold;
+	text-align:left;
+}
+.titolo{
+	font-size: 2rem;
+    font-family: Modula Sans, sans-serif;
+    line-height: 1;
+    font-weight:bold;
+	margin: 0;
+	padding-left:450px;
+}
+h3 {
+	font-size: 2rem;
+    font-family: Modula Sans, sans-serif;
+    line-height: 1;
+    font-weight:bold;
+	margin: 0;
+	padding-left:250px;
+}
+
+.image{
+	float:right;
+	width:30pt;
+	height:20pt;
+}
+ 
+    .container {
+        max-width: 800px;
+        margin: 50px auto;
+        background-color:#A9B7B8;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+    }
+    .container h2 {
+        margin-bottom: 30px;
+        text-align: center;
+        color: #333;
+    }
+    .form-row {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .form-group {
+        width: 48%;
+    }
+    .form-group label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #000;
+    }
+    .form-group input[type="text"], 
+    .form-group input[type="email"], 
+    .form-group input[type="tel"], 
+    .form-group textarea,
+    .form-group select {
+        width: calc(100% - 12px);
+        padding: 12px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #333;
+        background-color: #A9B7B8;
+        border: 1px solid #ccc;
+        transition: border-color 0.3s ease;
+    }
+    .form-group input[type="text"]:focus, 
+    .form-group input[type="email"]:focus, 
+    .form-group input[type="tel"]:focus, 
+    .form-group textarea:focus,
+    .form-group select:focus {
+        outline: none;
+        border-color: #007bff;
+    }
+    .form-group textarea {
+        height: 100px;
+    }
+    .form-group select {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8"><path fill="#555" d="M6 8L0 0h12z"/></svg>');
+        background-repeat: no-repeat;
+        background-position: right 10px center;
+        background-size: 12px;
+        padding-right: 30px;
+    }
+    .form-group input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 15px 30px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+        width: 100%;
+    }
+    .form-group input[type="submit"]:hover {
+        background-color:#174071;
+    }
+
+    /* Media query per il layout responsive */
+    @media screen and (max-width: 768px) {
+        .form-group {
+            width: 100%;
+        }
+    }
+.icon {
+    width: 25px; 
+	padding:10px;
+}
+.ups{
+	float:right;
+	margin-right:200pt;
+	width:400pt;
+	border-radius: 15%;
+}
+.brt{
+	float:left;
+	margin-top:90pt;
+	width:400pt;
+	border-radius: 15%;
+}
+.immagine{
+	width:100pt;
+
+}
+.tel{
+	text-decoration:none;
+	color:#A9B7B8;
+}
+.ups,
+.brt {
+  transition: transform 0.5s ease;
+}
+
+.ups:hover,
+.brt:hover {
+  transform: scale(1.1);
+}
+.text-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.lift {
+    width: 400px;
+    border-radius: 15%;
+    margin-left: 600px; /* Spazio tra l'immagine e il testo */
+}
+.text1 {
+    margin-right: 20px; /* Spazio tra il testo e l'immagine */
+}
