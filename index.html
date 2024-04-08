@@ -6,116 +6,19 @@
   <meta name="keywords" content="Magazzino automatico, organizzazione, velocità" />
   <meta name="author" content="LiftX (Andrea Mantovani e Matthias Bocchi)" />
   <link rel="icon" href="Xbianca.png" /> 
-  <link href="CSSLiftX.css" type="text/css" rel="stylesheet" /> 
   <title>LIFTX</title> 
-  <header>
-    <hgroup>
-      <img class="logo" src="fotus.jpg" width="700" />  
-      <a href="english.html">
-        <img class="image" src="bandiera inglese.png" /> 
-      </a>
-    </hgroup>
-  </header>
-</head>
-<body>
-  <main>
-    <article> 
-      <h2>
-        Magazzini verticali e orizzontali automatizzati: i <br> passi verso l'automazione del vostro magazzino
-      </h2>
-      <img class="lift ups" src="dhl.jpg"/>
-      <div class="title" > 
-        <h3>Il nostro prodotto</h3> <br> 
-      </div>
-      <div class="text" > 
-        Il Magazzino Automatico Verticale, sviluppato da LiftX, <br>
-        è un sistema automatizzato progettato per semplificare <br> 
-        l'organizzazione e la gestione delle merci.<br>
-        <br>
-        Questo innovativo magazzino è composto da una serie <br> 
-        di moduli in cui vengono accuratamente posizionate le merci.<br>
-        <br>
-        Gli utenti possono facilmente richiedere un modulo specifico<br>
-        attraverso un pannello di controllo intuitivo, il quale fornisce <br>
-        dettagli sul contenuto di ciascun modulo, garantendo così un accesso <br>
-        rapido ed efficiente alla merce desiderata.<br>
-        <img class="lift ups" src="ups.jfif" />
-        <br> 
-        <br>
-        <br>
-        <br>
-        <br>
-        <br> 
-        <br>
-        <div class="titolo">
-          <h3>Perché scegliere un magazzino automatico verticale?</h3>
-        </div>
-        <div class="testo">
-          Il magazzino automatico Liftx si ispira alla tecnologia dei Lego: <br>
-          Mindmaster: stessa flessibilità nel combinare i diversi pezzi <br>
-          a seconda delle necessità di carico e scarico; intercambiabilità dei pezzi;<br>
-          minimo ingombro della struttura grazie a un uso limitato ma ad hoc <br>
-          dei componenti;affidabilità garantita dalla precisione con cui sono prodotti<br>
-          i componenti.<br>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="text-wrapper">
-          <div class="text1"> 
-            <h3>Come funziona Liftx?</h3> 
-            <p>Per interagire con il sistema, l'utente può affidarsi su un pannello di controllo</br>
-            posizionato strategicamente vicino all'accesso del Magazzino Verticale.</p>
+  <style>
+    body {
+      font-family: calibri;
+      color: #a9b7b8;
+      background-color: #174071;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden; /* Hide horizontal overflow */
+      overflow-y: auto; /* Enable vertical scrolling */
+    }
 
-            <p>Su richiesta dell'utente, il pannello di controllo consente l'avvio del processo di</br>
-            movimentazione dei "blocchi". Attraverso un sofisticato sistema di trasporto, i compartimenti</br>
-            contenenti la merce richiesta vengono spostati con precisione e rapidità verso l'area di accesso.</p>
 
-            <p>Ciò è reso possibile attraverso un meccanismo intelligente e automatizzato, coinvolgendo</br>
-            una macchina che si muove su una nastro trasportatore. Quest'ultimo è progettato per selezionare</br>
-            con precisione i moduli desiderati e trasferirli alla posizione di accesso, dove possono</br>
-            essere prelevati o inseriti in base alle esigenze dell'utente.</p>
-          </div>
-          <div class="image-wrapper">
-            <img class="lift ups" src="lift.jpg" />
-          </div>
-        </div>
-      </div>
-    </article>
-    <div class="container">
-      <h2>Richiedi Informazioni</h2>
-      <form action="#" method="post">
-        <div class="form-row">
-          <div class="form-group">
-            <label for="name">Nome:</label>
-            <input type="text" id="name" name="name" required>
-          </div>
-          <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="form-group">
-            <label for="phone">Numero di cellulare:</label>
-            <input type="tel" id="phone" name="phone" required>
-          </div>
-          <div class="form-group">
-            <label for="company">Nome dell'azienda:</label>
-            <input type="text" id="company" name="company" required>
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="form-group">
-            <label for="province">Provincia dell'azienda:</label>
-            <select id="province" name="province" required>
-              <option value="" disabled selected>-- Seleziona provincia --</option>
-                      <option value="" disabled selected>-- Seleziona provincia --</option>
-                      <option value="AG">Agrigento</option>
                       <option value="AL">Alessandria</option>
                       <option value="AN">Ancona</option>
                       <option value="AO">Aosta</option>
@@ -225,44 +128,36 @@
                       <option value="VV">Vibo Valentia</option>
                       <option value="VI">Vicenza</option>
                       <option value="VT">Viterbo</option>
-            </select>
-          </div>
+          </select>
         </div>
-        <div class="form-row">
-          <div class="form-group">
-            <label for="message">Messaggio:</label>
-            <textarea id="message" name="message" required></textarea>
-          </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="message">Messaggio:</label>
+          <textarea id="message" name="message" required></textarea>
         </div>
-        <div class="form-row">
-          <div class="form-group">
-            <input type="submit" value="Invia">
-          </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <input type="submit" value="Invia">
         </div>
-      </form>
-    </div>
-  </main>
-  <footer>
-    <div class="footer-left">
-			<p>LiftX</p>
-			<p>Indirizzo: Via Fratelli Ferretti 20, Cortile MO</p>
-			<p>41012   - Cortile</p>
-			<a class="tel" href="+393293378610"> +393293378610</a>
-		</div>
-		<img class="immagine" src="fotus.jpg" />
-		<div class="footer-right">
-			<a class="icon" href="mailto:liftxs.r.l@gmail.com">
-				<img src="mail.png" alt="Email">
-			</a>
-			<a class="icon" href="https://www.instagram.com/liftx_s.r.l/">
-				<img src="gram.png" alt="Instagram">
-			</a>
-			<a class="icon" href="https://www.youtube.com/channel/UCm1c962X9tg4guyWTxSeQjw">
-				<img src="YouTubeBianco.png" alt="YouTube">
-			</a>
-		</div>
-    </div>
-  </footer>
+      </div>
+    </form>
+  </div>
+</main>
+<footer>
+  <div class="footer-left">
+    <p>LiftX</p>
+    <p>Indirizzo: Via Roma 123, 00100, Roma</p>
+    <p>Telefono: <a class="tel" href="tel:+390123456789">+39 0123456789</a></p>
+    <p>Email: <a href="mailto:info@liftx.it">info@liftx.it</a></p>
+  </div>
+  <div class="footer-right">
+    <p>Seguici su:</p>
+    <a href="https://www.linkedin.com/"><img src="linkedin.png" alt="LinkedIn"></a>
+    <a href="https://www.facebook.com/"><img src="facebook.png" alt="Facebook"></a>
+    <a href="https://twitter.com/"><img src="twitter.png" alt="Twitter"></a>
+  </div>
+</footer>
 </body>
 </html>
-
